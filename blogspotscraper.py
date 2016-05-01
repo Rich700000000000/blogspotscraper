@@ -13,10 +13,10 @@ import requests
 import io
 import re
 from bs4 import BeautifulSoup
+import sys
 
-#Set url to Blogger blog between the single quotation marks
-#For examle url = 'http://german-podcast.blogspot.se/2013/01/new-vocitach-android-app-with-more-than.html'
-url = ''
+#Gets the URL from the command line.
+url = (sys.argv[1])
 
 counter = 0
 
